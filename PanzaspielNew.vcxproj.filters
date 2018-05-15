@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien\Shader">
+      <UniqueIdentifier>{6565230d-1ed4-4bae-b23c-5f51a39ef69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\Textures">
+      <UniqueIdentifier>{efa7d162-fd30-4bd7-a3d1-765ad8689b67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSprite.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewModel.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Panzer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCollector.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="NewNetworkClient.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSprite.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewModel.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Panzer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="InputCollector.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="NewNetworkClient.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaderboard.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Engine\Shader\Fragment_Shader">
+      <Filter>Ressourcendateien\Shader</Filter>
+    </None>
+    <None Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Engine\Shader\Vertex_Shader">
+      <Filter>Ressourcendateien\Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\DesertBackground.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Explosion1.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Explosion2.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Explosion3.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Explosion4.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Explosion5.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Explosion6.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Fire1.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Fire2.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Fire3.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Fire4.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Fire5.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Haus_Komplett.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\House.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\House_Destroyed.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\HouseExplosion1.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\HouseExplosion2.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\HouseExplosion3.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\HouseExplosion4.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\HouseExplosion5.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\HouseExplosion6.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Panzer1.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Panzer1destroyed.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Panzer2.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Panzer2destroyed.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Documents\new-eclipse-workspace\Panzaspiel\Textures\Shot.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
